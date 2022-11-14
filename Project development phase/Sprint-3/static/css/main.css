@@ -1,0 +1,166 @@
+body {
+    background-image: url("https://www.livingproofnyc.com/wp-content/themes/livingproof/assets/img/hero-background.jpg");
+    background-size: cover;
+}
+
+.bar {
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 20px;
+    background-color: #9ACD32;
+    width: 800px;
+    opacity: 0.6;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+a {
+    color: grey;
+    float: right;
+    text-decoration: none;
+    font-style: normal;
+    padding-right: 20px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    0 font-size: 30px;
+    padding-left: 10px;
+}
+
+.div1 {
+    background-color: lightgrey;
+    width: 500px;
+    border: 10px solid peach;
+    padding: 20px;
+    margin: 20px;
+    height: 500px;
+}
+
+
+
+
+
+.header {
+    position: relative;
+    top: 0;
+    margin: 0px;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #8B008B;
+    color: white;
+    box-shadow: 0px 8px 4px grey;
+    overflow: hidden;
+    padding-left: 20px;
+    font-family: 'Josefin Sans';
+    font-size: 2vw;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #FCAD98;
+}
+
+.topnav-right a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.topnav-right a:hover {
+    background-color: #FF69B4;
+    color: black;
+}
+
+.topnav-right a.active {
+    background-color: #DA70D6;
+    color: black;
+}
+
+.topnav-right {
+    float: right;
+    padding-right: 100px;
+}
+
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover {
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
